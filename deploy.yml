@@ -28,7 +28,7 @@ spec:
           image: shaikmustafa/cycle
           imagePullPolicy: IfNotPresent
           ports:
-            - name: httpd
+            - name: nginx
               containerPort: 80
               protocol: TCP
           
